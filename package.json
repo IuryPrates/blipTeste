@@ -1,0 +1,25 @@
+{
+  "name": "bliptest",
+  "version": "1.0.0",
+  "description": "Desafio técnico da Blip, para PS de chatbot developer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IuryPrates/blipTeste.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IuryPrates/blipTeste/issues"
+  },
+  "homepage": "https://github.com/IuryPrates/blipTeste#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  }
+}
