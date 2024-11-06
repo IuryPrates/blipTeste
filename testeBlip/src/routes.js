@@ -1,6 +1,10 @@
 const routes = require("express").Router();
 const githubApi = require("./apiGithub/githubApi");
 
+routes.get("/", async (req, res) =>{
+  return res.json("Passou aqui");
+});
+
 routes.get("/repos", async (req, res) => {
   try {
     
@@ -24,6 +28,6 @@ routes.get("/repos", async (req, res) => {
   } catch (error) {
     res.send({ error: error.message })
   }
-})
+});
 
 module.exports = routes;

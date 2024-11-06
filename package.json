@@ -12,7 +12,7 @@
     "url": "git+https://github.com/IuryPrates/blipTeste.git"
   },
   "engines": {
-    "node": "14.x"
+    "node": "20.x"
   },
   "keywords": [],
   "author": "",
