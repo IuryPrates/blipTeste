@@ -1,7 +1,7 @@
 const routes = require("express").Router();
 const githubApi = require("./apiGithub/githubApi");
 
-routes.get("/repos", async (req, res) => {
+routes.get("/repositorios", async (req, res) => {
   try {
     
     const { data } = await githubApi.get("/users/takenet/repos?&sort=created&direction=asc");
