@@ -4,7 +4,7 @@
   "description": "Desafio técnico da Blip, para PS de chatbot developer.",
   "main": "index.js",
   "scripts": {
-    "start": "./testeBlip/src/index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
